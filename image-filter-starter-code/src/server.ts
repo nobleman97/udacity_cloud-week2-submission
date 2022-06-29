@@ -49,7 +49,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
     })
 
     .catch(err => {
-      return res.status(400).send(
+      return res.status(422).send(
         err
       )
     })
